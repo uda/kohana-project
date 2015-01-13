@@ -1,6 +1,6 @@
 {
   "name": "uda/kohana-project",
-  "description": "A Kohana based project",
+  "description": "A Kohana based project distribution",
   "license": "MIT",
   "type": "project",
   "homepage": "http://kohanaframework.org/",
