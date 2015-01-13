@@ -1,0 +1,41 @@
+{
+  "name": "uda/kohana-project",
+  "description": "A Kohana based project",
+  "license": "MIT",
+  "type": "project",
+  "homepage": "http://kohanaframework.org/",
+  "authors": [
+    {
+      "name": "Yehuda Deutsch",
+      "email": "yeh@uda.co.il",
+      "homepage": "http://0x59.net/",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "info@afoss.org"
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.3.3",
+    "kohana/core": "@stable",
+    "kohana/orm": "@stable",
+    "kohana/database": "@stable",
+    "kohana/image": "@stable",
+    "kohana/minion": "@stable",
+    "kohana/cache": "@stable",
+    "kohana/auth": "@stable",
+    "tommcdo/kohana-twig": "@stable",
+    "zeelot/kohana-media": "1.3.x-dev",
+    "uda/kohana-theme": "dev-master",
+    "incenteev/composer-parameter-handler": "~2.0"
+  },
+  "require-dev": {
+    "kohana/unittest": "@stable",
+    "kohana/coding-standards": "dev-master"
+  },
+  "suggest": {
+    "kohana/codebench": "A benchmarking module",
+    "kohana/userguide": "Kohana user guide and live API documentation module"
+  }
+}
