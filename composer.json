@@ -3,7 +3,7 @@
   "description": "A Kohana based project distribution",
   "license": "MIT",
   "type": "project",
-  "homepage": "http://kohanaframework.org/",
+  "homepage": "https://github.com/uda/kohana-project",
   "authors": [
     {
       "name": "Yehuda Deutsch",
@@ -13,7 +13,8 @@
     }
   ],
   "support": {
-    "email": "info@afoss.org"
+    "email": "support@uda.co.il",
+    "source": "https://github.com/uda/kohana-project"
   },
   "minimum-stability": "dev",
   "require": {
@@ -29,6 +30,7 @@
     "uda/kohana-theme": "dev-master"
   },
   "require-dev": {
+    "phpunit/phpunit": "3.7.*",
     "kohana/unittest": "@stable",
     "kohana/coding-standards": "dev-master"
   },
